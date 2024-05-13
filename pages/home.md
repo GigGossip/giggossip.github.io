@@ -30,7 +30,7 @@ hero:
         size: large
         outline: false
         style: "none"
-      - text: "GitHub"
+      - text: "Code &nbsp;"
         url: "https://github.com/DontTrustVerifyOrg/gig-gossip"
         external: true
         fa_icon: fab fa-github

@@ -1,17 +1,7 @@
 [
   {
-    "title": "Twitter",
-    "fa_icon": "fab fa-twitter",
-    "url": "https://www.zerostatic.io"
-  },
-  {
     "title": "Github",
     "fa_icon": "fab fa-github",
-    "url": "https://github.com/TheHyperLabsCom"
-  },
-  {
-    "title": "Linkedin",
-    "fa_icon": "fab fa-linkedin",
-    "url": "https://www.zerostatic.io"
+    "url": "https://github.com/DontTrustVerifyOrg/gig-gossip"
   }
 ]
