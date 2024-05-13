@@ -25,7 +25,7 @@ function toggleDarkMode() {
 }
 
 function initDarkMode() {
-  let darkMode = localStorage.getItem("darkMode");
+  let darkMode = false;
   if (darkMode === "true") {
     darkModeSwitches.forEach((item) => item.classList.add("dark"));
     return;
@@ -33,10 +33,6 @@ function initDarkMode() {
   if (darkMode === "false") {
     darkModeSwitches.forEach((item) => item.classList.add("light"));
     return;
-  }
-  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    document.documentElement.setAttribute("data-bs-theme", "dark");
-    darkModeSwitches.forEach((item) => item.classList.add("dark"));
   }
 }
 
