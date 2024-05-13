@@ -68,12 +68,12 @@
 
 <div class="blog-style hero {{ fullscreen }} {{ gradient }}" style="{{ bg_color }} {{ bg_height }}">
   <div class="hero-background-image" style="{{ bg_image }}">
-    <video autoplay muted loop playsinline id="myVideo">     
+    <video autoplay muted  playsinline id="myVideo">     
       <source src="{{ background_video }}" type="video/mp4">
    </video>
   </div>
   {% if divider %}{% include framework/divider.html %}{% endif %}
-  <div class="container {% if divider %}pb-10{% endif %}"  style="background: rgba(230, 230, 230, 1)" >
+  <div class="container {% if divider %}pb-10{% endif %}"  style="background: rgba(255, 255, 255, 1)" >
       <div class="row align-items-center">
       <div class="col-lg-12 {% if image %}col-lg-6{% else %}col-lg-8{% endif %}">
         <div class="hero-text" style="{% if text_color %}color: {{ text_color }};{% endif %}">
