@@ -30,12 +30,19 @@ hero:
         size: large
         outline: false
         style: "none"
+      - text: "GitHub"
+        url: "https://github.com/DontTrustVerifyOrg/gig-gossip"
+        external: true
+        fa_icon: fab fa-github
+        size: large
+        outline: false
+        style: "light"
       - text: "Contact Us"
         url: "https://thehyperlabs.com/contact/"
         external: true
         fa_icon: false
         size: large # "small", "normal", "large"
-        outline: false
+        outline: true
         style: "light" # "light", "dark", "primary"
       - text: "About us"
         url: "https://thehyperlabs.com/about/"
@@ -45,90 +52,7 @@ hero:
         outline: true
         style: "light"
 
-services:
-  enabled: false
-  heading: "Our Services"
-  sub_heading: ""
-  limit: 6
-  sort: "weight" # 'date'
-  view_more_button_text: "View All Services"
-  view_more_button_link: "/services"
-  prevent_click: false
-
-intro:
-  enabled: false
-  align: left
-  image: "/assets/images/gen/content/content-5-thumbnail.webp"
-  heading: "Imagine a service like Uber or Upwork, where the customer and contractor can directly connect, order/provide services and make secure payments using a global P2P network, without central intermediaries, all in a secure environment."
-  sub_heading: "At its core, Gig-Gossip utilizes Bitcoin to enable secure, transparent transactions without central intermediaries. However, to overcome Bitcoin's limitation of 7 transactions per second, the Lightning Network steps in, offering near-instant payments with minimal fees. This scalability is vital for supporting a global user base, enabling economic opportunities worldwide with unmatched efficiency."
-  features:
-    enabled: true
-    list:
-      - text: "Configure the homepage sections in front-matter."
-        fa_icon: "fas fa-check"
-      - text: "An advanced hero image section with dozens of design options."
-        fa_icon: "fas fa-check"
-      - text: "Fully responsive and SEO optimised."
-        fa_icon: "fas fa-check"
-      - text: "Multiple content types including services, projects, blog and more."
-        fa_icon: "fas fa-check"
-  buttons:
-    enabled: false
-    list:
-      - text: "About Us"
-        url: "/about"
-        external: false
-        fa_icon: ""
-        size: large
-        outline: false
-        style: "primary"
-
-partners:
-  enabled: false
-  limit: 2
-  sort: "weight" # 'date'
-
-projects:
-  enabled: false
-  heading: "Our Projects"
-  sub_heading: ""
-  limit: 7
-  columns: 2
-  sort: "weight" # 'date'
-  view_more_button_text: "View All Projects"
-  view_more_button_link: "/projects"
-  prevent_click: false
-
-outro:
-  enabled: false
-  align: left
-  image: false
-  heading: "Ready to get started?"
-  sub_heading: "Contact us today for a free quote!"
-  buttons:
-    enabled: true
-    list:
-      - text: "Get A Quote"
-        url: "/contact"
-        external: false
-        fa_icon: false
-        size: "normal"
-        outline: false
-        style: "primary"
-
-posts:
-  enabled: false
-  heading: "Latest Posts"
-  sub_heading: ""
-  limit: 3
-  columns: 3
-  sort: "weight" # 'date'
-  view_more_button_text: "View All Posts"
-  view_more_button_link: "/blog"
-  prevent_click: false
 ---
-<hr/>
-
 # How does it work?
 
 <div class="row">
@@ -230,8 +154,10 @@ A mobile mesh is a network of mobile devices that are connected to each other us
 </div>
 </div>
 
+<hr/>
 
 ## Made for mass adoption
+Gig-economy sectors that can be transformed with Gig-Gossip:
 
 <img src="/assets/images/gen/home/industries/transport.jpg" width="120" height="120"/>
 <img src="/assets/images/gen/home/industries/travel.jpg" width="120" height="120"/>
@@ -243,21 +169,29 @@ A mobile mesh is a network of mobile devices that are connected to each other us
 <img src="/assets/images/gen/home/industries/it.jpg" width="120" height="120"/>
 <img src="/assets/images/gen/home/industries/education.jpg" width="120" height="120"/>
 
-Gig-economy sectors that can be transformed with Gig-Gossip:
-1. Transportation - Companies like Uber, Lyft, and DoorDash hire drivers as independent contractors to provide ride-sharing and delivery services.<
-2. Holiday & Travel - AirBnb is a popular platform within the gig-economy for generating passive income by renting out properties on a short-term basis.
-3. Retail< - Retailers may hire gig workers for seasonal work, such as during the holiday shopping season.
-4. Construction - Construction companies may hire gig workers for short-term projects that require specialized skills.
-5. Hospitality - Hotels and resorts often hire gig workers for tasks like cleaning, food service, and event staffing.
-6. Creative Services - Freelancers in creative fields such as writing, graphic design, and photography are often hired on a gig basis by businesses and individuals.
-7. Healthcare - Healthcare organizations may hire gig workers for temporary staffing needs, such as for nurses, medical assistants, and other healthcare professionals
-8. IT - Companies often hire gig workers for short-term IT projects or to fill in gaps in their IT teams.
-9. Education - Some educational institutions hire gig workers for short-term projects, such as developing educational materials or providing tutoring services.
+1. **Transportation** <br/>
+  Companies like Uber, Lyft, and DoorDash hire drivers as independent contractors to provide ride-sharing and delivery services.<
+2. **Holiday & Travel** <br/>
+  AirBnb is a popular platform within the gig-economy for generating passive income by renting out properties on a short-term basis.
+3. **Retail** <br/>
+  etailers may hire gig workers for seasonal work, such as during the holiday shopping season.
+4. **Construction** <br/>
+  Construction companies may hire gig workers for short-term projects that require specialized skills.
+5. **Hospitality** <br/>
+   Hotels and resorts often hire gig workers for tasks like cleaning, food service, and event staffing.
+6. **Creative Services** <br/>
+  Freelancers in creative fields such as writing, graphic design, and photography are often hired on a gig basis by businesses and individuals.
+7. **Healthcare** <br/>
+  Healthcare organizations may hire gig workers for temporary staffing needs, such as for nurses, medical assistants, and other healthcare professionals
+8. **IT** <br/>
+  Companies often hire gig workers for short-term IT projects or to fill in gaps in their IT teams.
+9. **Education** <br/>
+  Some educational institutions hire gig workers for short-term projects, such as developing educational materials or providing tutoring services.
 
+<hr/>
 
 ## FAQ
 
-FAQ
 1. **Why did you choose Bitcoin as your monetary basis?**<br/>
   Firstly, Bitcoin implies decentralization, which directly corresponds to the main point of decentralized gig-economy. Secondly, Bitcoin allows us to perform basic financial operations and this is the foundation to build the trust for money transfers. Thirdly, Bitcoin is permissionless, anyone can join it, which increases the availability and dissemination of the idea.
 2. **Can your idea be used only with the Bitcoin network?**<br/>
@@ -274,6 +208,8 @@ FAQ
   Modern mobile phones are incredibly powerful devices with advanced processors, high-resolution displays, and a wide range of features that enable users to do everything from browsing the internet and taking photos to running complex apps and playing games. While cheap mobile phones may have been seen as basic and limited in the past, advancements in technology have made it possible for even budget-friendly devices to be quite powerful and feature-packed today. This is largely due to the continued progression of Moore's Law, which has driven the development of smaller and more efficient processors, allowing even lower-end devices to offer impressive performance and capabilities. Thanks to the rapid advancements in mobile technology and the increasing demand for secure communication, even inexpensive modern mobile phones are now capable of effortlessly computing complex cryptographic algorithms.
 8. **Why is the Lightning Network here?**<br/>
   Gig-Gossip works on Bitcoin but the Lightning network (layer 2 protocol on Bitcoin) allows micropayment which is needed for small and frequent settlements between the client and the contractor so the network payments are small compared to transaction fees. Lightning network helps but it is not critical for Gig-gossip protocol. Gig-gossip runs directly on the Bitcoin main chain too.
+
+<hr/>
 
 ### Join the Movement
 
@@ -312,6 +248,7 @@ By getting involved, you're not just contributing to a project—you're becoming
 
 **8. Host Meetups or Webinars:** Organize or participate in virtual or physical meetups and webinars about Gig-Gossip and the broader gig economy. Sharing knowledge and experiences can strengthen the community and foster networking opportunities.
 
+<hr/>
 <video class="col-12" loop="" muted="" autoplay="" playsinline="" src="/assets/images/video/video1080.mp4"></video>
 
 
