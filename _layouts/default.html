@@ -12,12 +12,9 @@
 
     <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
 
-    {% if site.darkmode.enable_dark_mode != false %}
-      <script>
-        document.documentElement.setAttribute('data-bs-theme', 'light')
-//          localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-bs-theme', 'dark');
-      </script>
-    {% endif %}
+    <script>
+      document.documentElement.setAttribute('data-bs-theme', 'light')
+    </script>
 
     {% if site.cookie_banner.enabled %}
       {% include framework/cookie-consent.html %}
