@@ -1,0 +1,32 @@
+{% assign text=include.text %}
+{% assign url=include.url %}
+{% assign external=include.external %}
+{% assign size=include.size %}
+{% assign outline=include.outline %}
+{% assign style=include.style | default: "primary" %}
+{% assign fa_icon=include.fa_icon %}
+{% assign scroll_down=include.scroll_down %}
+{% assign outline=include.outline %}
+{% assign rounded=include.rounded %}
+
+{% capture button_style %}
+  mr-1 button
+  {% if style == "primary" %}button-primary{% endif %}
+  {% if style == "light" %}button-light{% endif %}
+  {% if style == "none" %}button-none{% endif %}
+  {% if style == "dark" %}button-dark{% endif %}
+  {% if size == 'small' %}button-sm{% endif %}
+  {% if size == 'large' %}button-lg{% endif %}
+  {% if rounded %}button-rounded{% endif %}
+  {% if outline %}button-outline{% endif %}
+{% endcapture %}
+
+{% if scroll_down %}
+<a href="#scrolltobegin" class="{{ button_style}}">
+  {{ text }}{% if fa_icon %}<i class="{{ fa_icon}} ml-1"></i>{% endif %}<img height=46px src="/assets/images/scroll-down.webp" style="-webkit-filter: grayscale(1) invert(1);filter: grayscale(1) invert(1);"/>
+</a>
+{% else %}
+<a href="{% if external %}{{url}}{% else %}{{url | relative_url }}{% endif %}" {% if external %}target="_blank" rel="noopener"{% endif %} class="{{ button_style}}">
+  {{ text }}{% if fa_icon %}<i class="{{ fa_icon}} ml-1"></i>{% endif %}
+</a>
+{% endif %}

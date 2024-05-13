@@ -1,0 +1,75 @@
+main:
+#  - name: Home
+#    url: /
+#    weight: 1
+#  - name: Projects
+#    url: /projects/
+#    weight: 2
+#    child:
+#      - name: "Fairide"
+#        url: /projects/fairide/
+#      - name: "My-Super.App Self Managed Superfund"
+#        url: /projects/mysuperapp/
+#      - name: "Bitcoin Imperial"
+#        url: /projects/btmpr/
+#      - name: "Gig-Gossip Protocol"
+#        url: /projects/gig-gossip/
+#  - name: Services
+#    url: /services/
+#    weight: 1
+#    child:
+#      - name: "Decentralised & Distributed Apps"
+#        url: /services/decdisapp/
+#      - name: "Bitcoin & Lightning Network"
+#        url: /services/btclnd/
+#      - name: "Bitcoin Consulting"
+#        url: /services/consulting/
+#  - name: Blog
+#    url: /blog/
+#    weight: 4
+#  - name: Careers
+#    url: /careers/
+#    weight: 5
+#  - name: About
+#    url: /about/
+#    weight: 5
+#  - name: "Team"
+#    url: /team/
+#    weight: 6
+#  - name: "Contact"
+#    url: /contact/
+#    weight: 7
+#footer_primary:
+#  - name: Home
+#    url: /
+#    weight: 1
+#  - name: Services
+#    url: /services/
+#    weight: 2
+#  - name: Projects
+#    url: /projects/
+#    weight: 3
+#footer_secondary:
+#  - name: About
+#    url: /about/
+#    weight: 2
+#  - name: Team
+#    url: /team/
+#    weight: 3
+#  - name: Contact
+#    url: /contact/
+#    weight: 4
+#footer_tertiary:
+#  - name: Privacy Policy
+#    url: /privacy-policy/
+#    weight: 1
+#  - name: Terms and Conditions
+#    url: /terms-and-conditions/
+#    weight: 2
+bottom:
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 3
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 4
