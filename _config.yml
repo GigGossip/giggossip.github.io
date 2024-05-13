@@ -189,7 +189,7 @@ menu:
 footer:
   enable_footer: true # show/hide the entire footer
   footer_title: "Gig-Gossip protocol"
-  footer_description: "Those who build on Bitcoin, sculpt the currency of the future.<br/>Join us."
+  footer_description: "Imagine a platform like Uber, UpWork, or DoorDash where people can connect directly and make secure payments without central intermediaries.<br/>Join us."
   enable_social_media_icons: true
   enable_contact_details: false
   enable_menu_footer_primary: false

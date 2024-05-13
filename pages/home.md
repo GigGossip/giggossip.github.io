@@ -9,12 +9,13 @@ meta_title: Gig-Gossip Protocol
 hero:
   enabled: true
   heading: "Gig-Gossip Open Source Protocol"
-  sub_heading: "Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices. <br/><br/> Imagine a service like Uber or Upwork, where the customer and contractor can directly connect, order/provide services and make secure payments using a global P2P network, without central intermediaries, all in a secure environment."
+  sub_heading: "Imagine a platform like Uber, UpWork, or DoorDash where people can connect directly and make secure payments without central intermediaries."
 #  text_color: "#FFFFFF"
 #  background_color: "#222831"
 #  background_gradient: true
 #  background_image: "/assets/images/gen/home/bg2.webp"
   background_image: "/assets/images/gen/home/gig-gossip.webp"
+  background_video: "/assets/images/video/video1080.mp4"
   background_image_blend_mode: multiply # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
@@ -44,115 +45,55 @@ hero:
         size: large # "small", "normal", "large"
         outline: true
         style: "light" # "light", "dark", "primary"
-      - text: "About us"
-        url: "https://thehyperlabs.com/about/"
-        external: true
-        fa_icon: false
-        size: large
-        outline: true
-        style: "light"
 
 ---
 # How does it work?
 
-<div class="row">
-<div class='col-6' style="background-color: white">
-<h3>BEFORE</h3>
-<p>
+### BEFORE
 There is no communication or direct price negotiation between the customer and the service provider, everything goes through a central system, optimized for its own benefit. Traditional payment systems are used for monetary transactions.
-</p>
-<img loading="lazy" class="how__column-chart" src="/assets/images/gen/home/chart1.svg" alt="Gig Gossip how does it work" title="Gig Gossip how does it work" width="609" height="400"></div>
-<div class='col-6' style="background-color: white">
-<h3>AFTER</h3>
-<p>
+
+<img loading="lazy" class="how__column-chart" src="/assets/images/gen/home/chart1.svg" alt="Gig Gossip how does it work" title="Gig Gossip how does it work" width="609" height="400">
+
+### AFTER
 Communication and price negotiation between the customer and the service provider takes place on a free market, which is naturally regulated by supply & demand. Bitcoin and Lightning Network are used for secure payments.
-</p>
+
 <img loading="lazy" class="how__column-chart" src="/assets/images/gen/home/chart2.svg" alt="Gig Gossip lightning network" title="Gig Gossip lightning network" width="583" height="583">
-</div>
-</div>
 
 <hr/>
 
 # Impact on ₿ community
 
-<div class="row">
-<div class='col-6'>
-<h3>01 / Connection</h3>
-<p>
+1. **Connection** <br/>
 Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices.
-</p>
-</div>
-<div class='col-6'>
-<h3>02 / Liquidity</h3>
-<p>
+2. **Liquidity** <br/>
 A larger adoption of Bitcoin can increase its liquidity by creating a larger pool of buyers and sellers, increasing trading volume and making it easier to buy or sell Bitcoin at any given time.
-</p>
-</div>
-</div>
-<div class="row">
-<div class='col-6'>
-<h3>03 / Knowledge</h3>
-<p>
+3. **Knowledge**<br/>
 With the mass adaptation of Gig-Gossip protocol, more and more people are getting to know and use Bitcoin as money. Bitcoin is no longer just a store of value.
-</p>
-</div>
-<div class='col-6'>
-<h3>04 / Trust</h3>
-<p>
-The higher adaptation of Gig-Gossip protocol, the more people get used to Bitcoin and trust it. You can see with your own eyes that it works for your benefit.</p>
-</div>
-</div>
+4. **Trust** <br/>
+The higher adaptation of Gig-Gossip protocol, the more people get used to Bitcoin and trust it. You can see with your own eyes that it works for your benefit.
 
 <hr/>
 
-# Why will it work?
+# Why now?
+<img src="/assets/images/gen/home/icons/lightning.svg" width="60" height="60"/>&nbsp;&nbsp;
+<img src="/assets/images/gen/home/icons/hyperbitcoinization.svg" width="60" height="60"/>&nbsp;&nbsp;
+<img src="/assets/images/gen/home/icons/smartphone2.svg" width="40" height="60"/>&nbsp;&nbsp;
+<img src="/assets/images/gen/home/icons/trust.svg" width="60" height="60"/>&nbsp;&nbsp;
+<img src="/assets/images/gen/home/icons/globe.svg" width="60" height="60"/>&nbsp;&nbsp;
+<img src="/assets/images/gen/home/icons/mesh.svg" width="60" height="60"/>&nbsp;&nbsp;
 
-<div class="row">
-<div class='col-4'>
-<img src="/assets/images/gen/home/icons/lightning.svg" width="60" height="60"/>
-<h3>Lightning Network adaptation</h3>
-<p>
+1. **Lightning Network adaptation**<br/>
 The Lightning Network is a layer-two scaling solution for Bitcoin that enables instant, low-cost transactions by facilitating off-chain payment channels between users.
-</p>
-</div>
-<div class='col-4'>
-<img src="/assets/images/gen/home/icons/hyperbitcoinization.svg" width="60" height="60"/>
-<h3>Hyperbitcoinization</h3>
-<p>
+2. **Hyperbitcoinization** <br/>
 Gig-Gossip protocol is helping Bitcoin becoming the dominant global currency and displacing traditional fiat currencies in the long run.
-</p>
-</div>
-<div class='col-4'>
-<img src="/assets/images/gen/home/icons/smartphone2.svg" width="40" height="60"/>
-<h3>Powerful mobile phones</h3>
-<p>
+3. **Powerful mobile phones** <br/>
 As a Bitcoin technology continues to advance, we can expect to see more powerful mobile devices in the future.
-</p>
-</div>
-</div>
-<div class="row">
-<div class='col-4'>
-<img src="/assets/images/gen/home/icons/trust.svg" width="60" height="60"/>
-<h3>Low trust to middlewares</h3>
-<p>
+4. **Low trust to middlewares**<br/>
 The business of intermediaries is not always aligned with the business of the people. Their actions lack transparency and are usually optimized for their maximum benefit.
-</p>
-</div>
-<div class='col-4'>
-<img src="/assets/images/gen/home/icons/globe.svg" width="60" height="60"/>
-<h3>Global uberization</h3>
-<p>
+5. **Global uberization** <br/>
 Gig-Gossip disrupts traditional industries and business models by using Bitcoin technology to create a new market without intermediaries, that is more efficient, convenient, and cost-effective.
-</p>
-</div>
-<div class='col-4'>
-<img src="/assets/images/gen/home/icons/mesh.svg" width="60" height="60"/>
-<h3>Mobile mesh network</h3>
-<p>
+6. **Mobile mesh network** <br/>
 A mobile mesh is a network of mobile devices that are connected to each other using wireless communication technologies such as Wi-Fi, Bluetooth, or cellular data.
-</p>
-</div>
-</div>
 
 <hr/>
 
@@ -247,10 +188,4 @@ By getting involved, you're not just contributing to a project—you're becoming
 **7. Provide Feedback and Ideas:** Your insights are valuable. Participate in surveys, beta testing of new features, or forums to provide feedback. Your ideas can help shape the future of Gig-Gossip.
 
 **8. Host Meetups or Webinars:** Organize or participate in virtual or physical meetups and webinars about Gig-Gossip and the broader gig economy. Sharing knowledge and experiences can strengthen the community and foster networking opportunities.
-
-<hr/>
-<video class="col-12" loop="" muted="" autoplay="" playsinline="" src="/assets/images/video/video1080.mp4"></video>
-
-
-
 
