@@ -2,7 +2,7 @@
 # Jekyll Config
 # --------------------
 baseurl: ""
-url: "https://giggossip.github.io"
+url: "https://gig-gossip.org"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
