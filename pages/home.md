@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 title: "Gig-Gossip Protocol"
-description: "Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices."
+description: "Gig-Gossip introduces <strong><font color="#f7931a">Bitcoin</font></strong> to the gig economy and its wide audience of everyday users with the incentive of higher payouts and correspondingly lower prices."
 header_transparent: true
 meta_title: Gig-Gossip Protocol
 
@@ -52,7 +52,7 @@ hero:
 
 ## **We are on a mission to reclaim the shared economy for the people**, liberating it from the grasp of centralized platforms. In doing so, we enable the shared economy to blossom with new ideas and unveil its boundless potential.
 
-## **Building a decentralized system tailored to the shared economy** is feasible when constructed on top of Bitcoin and aligned with its principles. Satoshi restored control of money to the people. Similarly, we are demonstrating how the Lightning Network and NOSTR can help us reclaim the shared economy.
+## **Building a decentralized system tailored to the shared economy** is feasible when constructed on top of <strong><font color="#f7931a">Bitcoin</font></strong> and aligned with its principles. Satoshi restored control of money to the people. Similarly, we are demonstrating how the <strong><font color="#f7931a">Lightning Network</font></strong> and <strong><font color="#9900FF">Nostr</font></strong> can help us reclaim the shared economy.
 
 <hr/>
 
@@ -64,7 +64,7 @@ There is no communication or direct price negotiation between the customer and t
 <img loading="lazy" src="/assets/images/gen/home/chart1.svg" width="609" height="400">
 
 ### AFTER
-Communication and price negotiation between the customer and the service provider take place in a free market, naturally regulated by supply and demand. Bitcoin and the Lightning Network are used for secure payments. Screening and dispute resolution are managed by Security Centers—organizations that control final payment settlements.
+Communication and price negotiation between the customer and the service provider take place in a free market, naturally regulated by supply and demand. <strong><font color="#f7931a"><strong><font color="#f7931a">Bitcoin</font></strong></font></strong> and the <strong><font color="#f7931a">Lightning Network</font></strong> are used for secure payments. Screening and dispute resolution are managed by Security Centers—organizations that control final payment settlements.
 
 <img loading="lazy" src="/assets/images/gen/home/chart2.svg" width="583" height="583">
 
@@ -82,16 +82,27 @@ Communication and price negotiation between the customer and the service provide
 
 <hr/>
 
+# Gig-gossip design principles
+
+1. **Symmetry**: Each app instance operates the same way as the others, which mirrors the peer-to-peer principle of Bitcoin.
+2. **Permissionlessness**: Anyone with an internet connection can join in. No one is gatekept, reflecting the permisionless nature of Bitcoin.
+3. **Privacy**: Communication among nodes or clients is encrypted, enhancing user trust by protecting sensitive transactional data.
+4. **Anonymity**: The identity of people behind transactions is secret.
+5. **Sustainability**: The application’s features should promote honest participation, with built-in mechanisms that inherently disadvantage dishonest actors. This “implicit punishment principle”, taken from Bitcoin, ensures the long-term health of the app ecosystem.
+6. **Compliance Consistency**: Staying within legal boundaries is critical, even in decentralized spaces. The app should be developed to comply with laws and regulations over time.
+
+<hr/>
+
 # Impact on ₿ community
 <img loading="lazy" src="/assets/images/gen/home/flowers_people.png">
 
 1. **Connection** <br/>
-Gig-Gossip introduces Bitcoin to the gig economy and its wide audience of everyday users, with the incentive of higher payouts and correspondingly lower prices.2. **Liquidity** <br/>
-Larger adoption of Bitcoin can increase its liquidity by creating a larger pool of buyers and sellers, increasing trading volume, and making it easier to buy or sell Bitcoin at any given time.
+Gig-Gossip introduces <strong><font color="#f7931a">Bitcoin</font></strong> to the gig economy and its wide audience of everyday users, with the incentive of higher payouts and correspondingly lower prices.2. **Liquidity** <br/>
+Larger adoption of <strong><font color="#f7931a">Bitcoin</font></strong> can increase its liquidity by creating a larger pool of buyers and sellers, increasing trading volume, and making it easier to buy or sell <strong><font color="#f7931a">Bitcoin</font></strong> at any given time.
 3. **Knowledge**<br/>
-With the mass adoption of the Gig-Gossip protocol, more and more people are getting to know and use Bitcoin as money. Bitcoin is no longer just a store of value.
+With the mass adoption of the Gig-Gossip protocol, more and more people are getting to know and use <strong><font color="#f7931a">Bitcoin</font></strong> as money. <strong><font color="#f7931a">Bitcoin</font></strong> is no longer just a store of value.
 4. **Trust** <br/>
-The higher the adoption of the Gig-Gossip protocol, the more people get used to Bitcoin and trust it. You can see with your own eyes that it works for your benefit.
+The higher the adoption of the Gig-Gossip protocol, the more people get used to <strong><font color="#f7931a">Bitcoin</font></strong> and trust it. You can see with your own eyes that it works for your benefit.
 
 <hr/>
 
@@ -104,16 +115,16 @@ The higher the adoption of the Gig-Gossip protocol, the more people get used to 
 <img src="/assets/images/gen/home/icons/trust.svg" width="60" height="60"/>&nbsp;&nbsp;
 <img src="/assets/images/gen/home/icons/globe.svg" width="60" height="60"/>&nbsp;&nbsp;
 
-1. **Lightning Network adaptation**<br/>
-The Lightning Network is a layer-two scaling solution for Bitcoin that enables instant, low-cost transactions by facilitating off-chain payment channels between users.
+1. **<strong><font color="#f7931a">Lightning Network</font></strong> adaptation**<br/>
+The <strong><font color="#f7931a">Lightning Network</font></strong> is a layer-two scaling solution for <strong><font color="#f7931a">Bitcoin</font></strong> that enables instant, low-cost transactions by facilitating off-chain payment channels between users.
 2. **Hyperbitcoinization** <br/>
-The Gig-Gossip protocol is helping Bitcoin become the dominant global currency and displace traditional fiat currencies in the long run.
+The Gig-Gossip protocol is helping <strong><font color="#f7931a">Bitcoin</font></strong> become the dominant global currency and displace traditional fiat currencies in the long run.
 3. **Powerful mobile phones** <br/>
-As Bitcoin technology continues to advance, we can expect to see more powerful mobile devices in the future.
+As <strong><font color="#f7931a">Bitcoin</font></strong> technology continues to advance, we can expect to see more powerful mobile devices in the future.
 4. **Low trust to middlewares**<br/>
 The business of intermediaries is not always aligned with the interests of the people. Their actions lack transparency and are usually optimized for their maximum benefit.
 5. **Global uberization** <br/>
-Gig-Gossip disrupts traditional industries and business models by using Bitcoin technology to create a new market without intermediaries that is more efficient, convenient, and cost-effective.
+Gig-Gossip disrupts traditional industries and business models by using <strong><font color="#f7931a">Bitcoin</font></strong> technology to create a new market without intermediaries that is more efficient, convenient, and cost-effective.
 
 <hr/>
 
@@ -153,10 +164,10 @@ Gig-economy sectors that can be transformed with Gig-Gossip:
 
 ## FAQ
 
-1. **Why did you choose Bitcoin as your monetary basis?**<br/>
-   Firstly, Bitcoin implies decentralization, which directly corresponds to the main point of a decentralized gig economy. Secondly, Bitcoin allows us to perform basic financial operations, building trust for money transfers. Thirdly, Bitcoin is permissionless, allowing anyone to join, which increases availability and dissemination of the idea.
+1. **Why did you choose <strong><font color="#f7931a">Bitcoin</font></strong> as your monetary basis?**<br/>
+   Firstly, <strong><font color="#f7931a">Bitcoin</font></strong> implies decentralization, which directly corresponds to the main point of a decentralized gig economy. Secondly, <strong><font color="#f7931a">Bitcoin</font></strong> allows us to perform basic financial operations, building trust for money transfers. Thirdly, <strong><font color="#f7931a">Bitcoin</font></strong> is permissionless, allowing anyone to join, which increases availability and dissemination of the idea.
 
-2. **Can your idea be used only with the Bitcoin network?**<br/>
+2. **Can your idea be used only with the <strong><font color="#f7931a">Bitcoin</font></strong> network?**<br/>
    It is not possible to use a classical, fiat money-based monetary system while removing the central organization and making a protocol for a globally decentralized gig economy. Fiat money is centralized by central banks.
 
 3. **What is a mobile mesh?**<br/>
@@ -174,8 +185,8 @@ Gig-economy sectors that can be transformed with Gig-Gossip:
 7. **The protocol uses cryptography quite intensively. Is it really possible to run Gig-Gossip on a cheap mobile phone?**<br/>
    Modern mobile phones are incredibly powerful devices with advanced processors, high-resolution displays, and a wide range of features that enable users to do everything from browsing the internet and taking photos to running complex apps and playing games. While cheap mobile phones may have been seen as basic and limited in the past, advancements in technology have made it possible for even budget-friendly devices to be quite powerful and feature-packed today. This is largely due to the continued progression of Moore's Law, which has driven the development of smaller and more efficient processors, allowing even lower-end devices to offer impressive performance and capabilities. Thanks to the rapid advancements in mobile technology and the increasing demand for secure communication, even inexpensive modern mobile phones are now capable of effortlessly computing complex cryptographic algorithms.
 
-8. **Why is the Lightning Network here?**<br/>
-   Gig-Gossip works on Bitcoin, but the Lightning Network (a layer-2 protocol on Bitcoin) allows micropayments, which are needed for small and frequent settlements between the client and the contractor. This makes network payments smaller compared to transaction fees. The Lightning Network helps but is not critical for the Gig-Gossip protocol. Gig-Gossip also runs directly on the Bitcoin main chain.
+8. **Why is the <strong><font color="#f7931a">Lightning Network</font></strong> here?**<br/>
+   Gig-Gossip works on <strong><font color="#f7931a">Bitcoin</font></strong>, but the <strong><font color="#f7931a">Lightning Network</font></strong> (a layer-2 protocol on <strong><font color="#f7931a">Bitcoin</font></strong>) allows micropayments, which are needed for small and frequent settlements between the client and the contractor. This makes network payments smaller compared to transaction fees. The <strong><font color="#f7931a">Lightning Network</font></strong> helps but is not critical for the Gig-Gossip protocol. Gig-Gossip also runs directly on the <strong><font color="#f7931a">Bitcoin</font></strong> main chain.
 
 <hr/>
 
@@ -192,9 +203,9 @@ As Gig-Gossip continues to evolve, we invite you to be a part of this thrilling 
 To learn more about Gig-Gossip and how you can contribute to this revolutionary project, 
 1. visit  [Gig-Gossip website](https://gig-gossip.org/),
 2. explore [GitHub repository and whitepaper](https://github.com/DontTrustVerifyOrg/gig-gossip), 
-3. deepen your knowledge of [Bitcoin](https://bitcoin.org), 
-4. the [Lightning Network](https://lightning.network/), 
-5. and [Nostr](https://nostr.com/).
+3. deepen your knowledge of [<strong><font color="#f7931a">Bitcoin</font></strong>](https://Bitcoin.org), 
+4. the [<strong><font color="#f7931a">Lightning Network</font></strong>](https://lightning.network/), 
+5. and [<strong><font color="#9900FF">Nostr</font></strong>](https://nostr.com/).
 
 ### How to Get Involved
 
@@ -202,7 +213,7 @@ By getting involved, you're not just contributing to a project—you're becoming
 
 **1. Developers:** We welcome contributions from developers passionate about decentralization and the gig economy. If you're skilled in coding and eager to contribute, join us on GitHub to collaborate and innovate.
 
-**2. Bitcoin Evangelists:** If you're a Bitcoin enthusiast, help spread the word about Gig-Gossip. Your voice can amplify our impact—talk about us, tweet, and share our vision with the world.
+**2. <strong><font color="#f7931a">Bitcoin</font></strong> Evangelists:** If you're a <strong><font color="#f7931a">Bitcoin</font></strong> enthusiast, help spread the word about Gig-Gossip. Your voice can amplify our impact—talk about us, tweet, and share our vision with the world.
 
 **3. Social Media Engagement:** Connect with us on Twitter and Discord. Join our community for real-time updates, discussions, and insights into Gig-Gossip’s development and milestones.
 
