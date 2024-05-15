@@ -106,23 +106,62 @@ In our decentralized model, customers and service providers interact directly, n
 # Problems with centralized shared economy platforms:
 <img loading="lazy" src="/assets/images/gen/home/night_sky.png" >
 
-<ol>
-{% include framework/shortcodes/more.html tag="li" header="
-<strong>Lack of transparency and trust</strong>: Centralized platforms often operate in an opaque manner, where the inner workings, algorithms, and decision-making processes are hidden from gig workers and customers. This lack of transparency breeds mistrust and suspicion about the fairness and integrity of the system.
-" content="
-For example, gig workers on platforms like Uber and DoorDash often find themselves at the mercy of algorithms that determine their pay, work assignments, and even deactivation from the platform. These algorithms are proprietary and opaque, leaving workers in the dark about how decisions are made and fostering a sense of helplessness and frustration.
-" %}
 
+<ol>
 {% include framework/shortcodes/more.html tag="li" header="
 <strong>Misaligned incentives</strong>: Centralized platforms are designed to maximize profits for the company and its shareholders, sometimes at the expense of the workers and customers. This can lead to exploitative practices, such as unfair revenue sharing, arbitrary changes to policies, and prioritizing company interests over the well-being of participants.
 " content="
 This misalignment of incentives is evident in practices such as surge pricing, where prices are increased during periods of high demand, benefiting the platform at the expense of both customers and workers. Similarly, changes in policies or terms of service can be implemented unilaterally by the platform, often disadvantaging workers without any recourse.
+
+<br/><br/>
+<strong>Uber stats:</strong>
+<ol>
+  <li>
+    <strong>Revenue Distribution from Fares</strong>:
+    75% of the fare fees are paid to drivers; Uber retains 25% for software maintenance and other services.
+  </li>
+  <li>
+    <strong>Driver Suggestion for Improvement</strong>:
+    55% of Uber drivers believe increasing pay is the biggest way to improve their experience.
+  </li>
+</ol>
+" %}
+
+{% include framework/shortcodes/more.html tag="li" header="
+<strong>Lack of transparency and trust</strong>: Centralized platforms often operate in an opaque manner, where the inner workings, algorithms, and decision-making processes are hidden from gig workers and customers. This lack of transparency breeds mistrust and suspicion about the fairness and integrity of the system.
+" content="
+For example, gig workers on platforms like Uber and DoorDash often find themselves at the mercy of algorithms that determine their pay, work assignments, and even deactivation from the platform. These algorithms are proprietary and opaque, leaving workers in the dark about how decisions are made and fostering a sense of helplessness and frustration.
+<br/><br/>
+<strong>Uber stats:</strong>
+<ol>
+  <li>
+    <strong>Driver Satisfaction Level</strong>:
+    Only 8% of Uber drivers are satisfied with their working experience at Uber.
+  </li>
+  <li>
+    <strong>Driver Suggestion for Improvement</strong>:
+    55% of Uber drivers believe increasing pay is the biggest way to improve their experience.
+  </li>
+</ol>
 " %}
 
 {% include framework/shortcodes/more.html tag="li" header="
 <strong>Power imbalances and lack of worker autonomy</strong>: Gig workers on centralized platforms often have little say or influence over the policies and decisions that directly impact their livelihoods. They are subject to the whims and unilateral actions of the platform operators, including potential punishments or deactivations without due process.
 " content="
 Workers on platforms like UpWork or TaskRabbit may find their accounts suspended or deactivated without clear reasons or an opportunity to appeal. This lack of autonomy and due process creates an environment of uncertainty and insecurity for gig workers.
+
+<br/><br/>
+<strong>Uber stats:</strong>
+<ol>
+  <li>
+    <strong>Driver Sentiment Towards Employment Status</strong>:
+    71% of rideshare drivers prefer to remain independent rather than become Uber employees.
+  </li>
+  <li>
+    <strong>Driver Satisfaction Level</strong>:
+    Only 8% of Uber drivers are satisfied with their working experience at Uber.
+  </li>
+</ol>
 " %}
 
 {% include framework/shortcodes/more.html tag="li" header="
@@ -134,7 +173,7 @@ The market dominance of companies like Uber and Airbnb has created significant b
 {% include framework/shortcodes/more.html tag="li" header="
 <strong>Privacy and data control concerns</strong>: Centralized platforms accumulate vast amounts of sensitive data about workers and customers, which can be used for surveillance, manipulation, or sold to third parties without adequate consent or control by the individuals involved.
 " content="
-Platforms like Facebook and Google have faced numerous controversies over their handling of user data, including incidents of data breaches, unauthorized data sharing, and exploitation of personal information for targeted advertising. These practices erode trust and raise significant concerns about privacy and data security.
+Global internet platforms have faced numerous controversies over their handling of user data, including incidents of data breaches, unauthorized data sharing, and exploitation of personal information for targeted advertising. These practices erode trust and raise significant concerns about privacy and data security.
 " %}
 
 </ol>
@@ -189,6 +228,38 @@ Gig-Gossip disrupts traditional industries and business models by using <strong>
 6. **Nostr for decentralized communication** <br/>
 <strong><font color="#9900FF">Nostr</font></strong> is a protocol for a censorship-resistant global "social" network. By using <strong><font color="#9900FF">Nostr</font></strong>, Gig-Gossip enables decentralized communication, ensuring that data is decentralized and resistant to censorship. This enhances the security and privacy of communications in the gig economy. With <strong><font color="#9900FF">Nostr</font></strong>, users can communicate directly and securely, without the risk of censorship or data breaches.
 
+<hr/>
+
+## Security Centers
+
+{% include framework/shortcodes/more.html header="
+Gig-Gossip recognizes that gig economy app operates within a specific legislative framework. This framework is governed by regulatory bodies at both local government and state levels. To ensure safety and legality for both your platform and its users, compliance with these regulations is essential. An illustrative example can be seen in the context of Bitcoin transactions. In many jurisdictions, if Bitcoin is permitted as a form of payment, it often comes with stringent requirements for Know Your Customer (KYC) protocols and the tracing of transactions for purposes such as taxation. Generally, there are at least two critical regulatory requirements that your applications might need to address: KYC and ODR. 
+<br/>
+<br/>
+<strong> Security Centers play a vital role in the Gig-Gossip ecosystem, ensuring compliance, safety, and trust within the decentralized gig economy. </strong>
+
+" content="
+Here are the key functions and responsibilities of Security Centers:
+<br/>
+<br/>
+<strong>KYC (Know Your Customer)</strong><br/>
+KYC refers to the process of verifying the identity of your clients or customers. The primary purpose of KYC regulations is to prevent identity theft, financial fraud, money laundering, and terrorist financing. In the context of financial applications, including those involving cryptocurrencies like Bitcoin, KYC procedures involve collecting and verifying personal information from users. This could include requiring users to submit government-issued IDs, proof of address, and other personal data. The aim is to ensure that businesses know who they are dealing with, thereby reducing the risk of criminal activities. Security Centers manage the KYC processes within the Gig-Gossip network, ensuring that all participants are verified and legitimate, which enhances the overall security of the platform.
+<br/><br/>
+<strong>ODR (Online Dispute Resolution)</strong><br/>
+ODR is a digital approach to resolving disputes between parties over the internet. It encompasses a wide range of technologies and methods designed to facilitate the resolution of disputes without the need for physical presence in courtrooms. ODR is particularly relevant for e-commerce platforms, online marketplaces, and service providers where transactions occur digitally, and parties may be in different geographical locations. Implementing ODR mechanisms allows businesses to offer their users efficient and accessible means of resolving disputes, which can enhance trust and user satisfaction. It aligns with regulatory frameworks that emphasize consumer protection and the need for fair and transparent dispute resolution processes. Security Centers facilitate ODR within the Gig-Gossip network, providing a structured process for handling conflicts and ensuring fair outcomes.
+<br/><br/>
+<strong>Compliance Management</strong><br/>
+Security Centers ensure that the Gig-Gossip platform complies with local and international regulations. This involves staying updated with legal requirements, implementing necessary changes to the platform, and ensuring that all activities within the network are conducted legally. By managing compliance, Security Centers protect both users and the platform from legal risks and potential penalties.
+<br/><br/>
+<strong>Trust and Reputation Management</strong><br/>
+Security Centers play a key role in managing the trust and reputation systems within the Gig-Gossip network. They oversee the collection and verification of user reviews, ratings, and feedback, ensuring that these are accurate and reliable. By maintaining a transparent and trustworthy reputation system, Security Centers help users make informed decisions and foster a positive community atmosphere.
+<br/><br/>
+<strong>Education and Support</strong><br/>
+To ensure that all users understand the regulatory requirements and security measures in place, Security Centers provide educational resources and support. This includes tutorials, FAQs, and customer support services that help users navigate the platform, comply with regulations, and understand the importance of security practices. By offering comprehensive support, Security Centers enhance user experience and encourage responsible behavior within the network.
+<br/><br/>
+<strong>Legal and Regulatory Advocacy</strong><br/>
+Security Centers engage with regulatory bodies and legal institutions to advocate for fair and supportive regulations for decentralized platforms. They work to influence policy decisions, represent the interests of the Gig-Gossip community, and ensure that the platform's operations are understood and supported by legal authorities. By acting as intermediaries between the platform and regulators, Security Centers help shape a favorable legal environment for decentralized gig economies.
+" %}
 <hr/>
 
 ## Made for mass adoption
