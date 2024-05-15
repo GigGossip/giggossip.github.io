@@ -1,0 +1,17 @@
+<div class="wrap-collabsible">
+    {% if include.tag %} 
+    <{{ include.tag }}>
+    {% endif %}
+    {{ include.header }}
+    {% assign thisid = include.content | slugify %}
+    <input id="{{ thisid }}" class="toggle" type="checkbox"/>
+    <label for="{{ thisid }}" class="lbl-toggle"><strong>MORE</strong></label>
+    <div class="collapsible-content">
+      <div class="content-inner">
+        {{ include.content}}
+      </div>
+    </div>
+    {% if include.tag %} 
+    </{{ include.tag }}>
+    {% endif %}
+</div>  

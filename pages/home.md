@@ -48,23 +48,55 @@ hero:
 
 ---
 
-## **Centralized platforms have taken control of the shared economy**. We have become their puppets, and they, our masters. The shared economy is locked down, with innovation allowed only when it benefits the power of these platforms.
+{% include framework/shortcodes/more.html tag="h2" header="
 
-## **We are on a mission to reclaim the shared economy for the people**, liberating it from the grasp of centralized platforms. In doing so, we enable the shared economy to blossom with new ideas and unveil its boundless potential.
+<strong>Centralized platforms have taken control of the shared economy</strong>. We have become their puppets, and they, our masters. The shared economy is locked down, with innovation allowed only when it benefits the power of these platforms.
 
-## **Building a decentralized system tailored to the shared economy** is feasible when constructed on top of <strong><font color="#f7931a">Bitcoin</font></strong> and aligned with its principles. Satoshi restored control of money to the people. Similarly, we are demonstrating how the <strong><font color="#f7931a">Lightning Network</font></strong> and <strong><font color="#9900FF">Nostr</font></strong> can help us reclaim the shared economy.
+" content="
 
-<hr/>
+Centralized platforms like Uber, UpWork, and DoorDash have created walled gardens where users and service providers are subject to their rules and profit-driven motives. These platforms act as gatekeepers, controlling access, setting prices, and determining the terms of service. This model stifles competition, innovation, and fairness, leaving gig workers with limited autonomy and customers with fewer choices and higher costs.
+
+" %}
+
+
+{% include framework/shortcodes/more.html tag="h2" header="
+
+<strong>We are on a mission to reclaim the shared economy for the people</strong>, liberating it from the grasp of centralized platforms. In doing so, we enable the shared economy to blossom with new ideas and unveil its boundless potential.
+
+" content="
+
+We envision a world where the shared economy is decentralized, transparent, and driven by the needs and desires of its participants rather than by the profit motives of intermediaries. By leveraging the power of blockchain technology, Bitcoin, the Lightning Network, and Nostr, we aim to create an ecosystem where innovation flourishes, trust is restored, and economic opportunities are accessible to all.
+
+" %}
+
+{% include framework/shortcodes/more.html tag="h2" header="
+
+<strong>Building a decentralized system tailored to the shared economy</strong> is feasible when constructed on top of <strong><font color=\"#f7931a\">Bitcoin</font></strong> and aligned with its principles. Satoshi restored control of money to the people. Similarly, we are demonstrating how the <strong><font color=\"#f7931a\">Lightning Network</font></strong> and <strong><font color=\"#9900FF\">Nostr</font></strong> can help us reclaim the shared economy.
+
+" content="
+The foundational principles of Bitcoin—decentralization, transparency, and permissionless innovation—are the pillars on which we build our decentralized gig economy. By integrating Bitcoin for payments, the Lightning Network for fast and low-cost transactions, and Nostr for secure and censorship-resistant communication, we are creating a robust and resilient ecosystem that empowers users and service providers alike.
+" %}
 
 # How does it work?
 
 ### BEFORE
+
+
+{% include framework/shortcodes/more.html header="
 There is no communication or direct price negotiation between the customer and the service provider; everything goes through a central system, optimized for its own benefit. Traditional FIAT payment systems are used for monetary transactions.
+" content="
+In the current centralized model, gig economy platforms act as intermediaries, controlling every aspect of the interaction between customers and service providers. This includes setting prices, managing communications, handling payments, and resolving disputes. These platforms take significant commissions, reducing the earnings of gig workers and increasing costs for customers. Additionally, the lack of direct communication and negotiation limits the ability of both parties to reach mutually beneficial agreements.
+" %}
 
 <img loading="lazy" src="/assets/images/gen/home/chart1.svg" width="609" height="400">
 
 ### AFTER
-Communication and price negotiation between the customer and the service provider take place in a free market, naturally regulated by supply and demand. <strong><font color="#f7931a"><strong><font color="#f7931a">Bitcoin</font></strong></font></strong> and the <strong><font color="#f7931a">Lightning Network</font></strong> are used for secure payments. Screening and dispute resolution are managed by Security Centers—organizations that control final payment settlements.
+
+{% include framework/shortcodes/more.html header="
+Communication and price negotiation between the customer and the service provider take place in a free market, naturally regulated by supply and demand. <strong><font color=\"#f7931a\"><strong><font color=\"#f7931a\">Bitcoin</font></strong></font></strong> and the <strong><font color=\"#f7931a\">Lightning Network</font></strong> are used for secure payments. Screening and dispute resolution are managed by Security Centers—organizations that control final payment settlements.
+" content="
+In our decentralized model, customers and service providers interact directly, negotiating prices and terms without the interference of intermediaries. Payments are made using Bitcoin and the Lightning Network, ensuring fast, secure, and low-cost transactions. Security Centers, independent entities chosen by the network participants, handle screening and dispute resolution, ensuring fairness and accountability. This model not only reduces costs but also increases transparency, trust, and satisfaction for both parties.
+" %}
 
 <img loading="lazy" src="/assets/images/gen/home/chart2.svg" width="583" height="583">
 
@@ -106,7 +138,7 @@ The higher the adoption of the Gig-Gossip protocol, the more people get used to 
 
 <hr/>
 
-# Why now?
+
 <img loading="lazy" src="/assets/images/gen/home/garden.png">
 
 <img src="/assets/images/gen/home/icons/lightning.svg" width="60" height="60"/>&nbsp;&nbsp;
@@ -226,4 +258,6 @@ By getting involved, you're not just contributing to a project—you're becoming
 **7. Provide Feedback and Ideas:** Your insights are valuable. Participate in surveys, beta testing of new features, or forums to provide feedback. Your ideas can help shape the future of Gig-Gossip.
 
 **8. Host Meetups or Webinars:** Organize or participate in virtual or physical meetups and webinars about Gig-Gossip and the broader gig economy. Sharing knowledge and experiences can strengthen the community and foster networking opportunities.
+
+
 
