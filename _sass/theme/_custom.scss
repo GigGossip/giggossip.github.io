@@ -103,7 +103,7 @@ input[type='checkbox'] {
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 100vh;
+  max-height: 1000vh;
 }
 
 .toggle:checked + .lbl-toggle {
@@ -117,4 +117,24 @@ input[type='checkbox'] {
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: .5rem 0.5rem;
+}
+
+.gig{
+  color: #FF5722;
+  font-weight: bold;
+}
+
+.btc{
+  color: #f7931a;
+  font-weight: bold;
+}
+
+.lnd{
+  color: #57038D;
+  font-weight: bold;
+}
+
+.nostr{
+  color: #a915ff;
+  font-weight: bold;
 }
