@@ -3,5 +3,11 @@
     "title": "Github",
     "fa_icon": "fab fa-github",
     "url": "https://github.com/DontTrustVerifyOrg/gig-gossip"
+  },
+  {
+    "title": "X aka Twitter",
+    "fa_icon": "fab fa-twitter",
+    "url": "https://x.com/GigGossipOrg"
   }
+
 ]
