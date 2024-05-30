@@ -9,7 +9,7 @@ meta_title: Gig-Gossip Protocol
 hero:
   enabled: true
   heading: "<span class=gig>Gig&#8209;Gossip</span> Protocol"
-  sub_heading: "Imagine a platform like Uber, UpWork, or DoorDash where people can connect directly and make secure payments <strong>without</strong> central intermediaries."
+  sub_heading: "Imagine a place like Uber, UpWork, or DoorDash where people can connect directly and make secure payments <strong>without</strong> central intermediaries."
 #  text_color: "#FFFFFF"
 #  background_color: "#222831"
 #  background_gradient: true
